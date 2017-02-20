@@ -88,7 +88,7 @@ public class CollaborativeReader extends Thread {
 			}
 			String content = null;
 			try {
-				content = inputElement.getAttribute("value");
+				content = inputElement.getText();
 			} catch (StaleElementReferenceException e) {
 				System.out.println("StaleElementReferenceException at Reader");
 				e.printStackTrace();
