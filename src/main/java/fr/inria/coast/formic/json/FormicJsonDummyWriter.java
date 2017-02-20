@@ -33,7 +33,7 @@ public class FormicJsonDummyWriter extends CollaborativeDummyWriter {
 		subscribeForJsonObject(formicStringId);
 		inputElement = driver.findElement(By.className("inputJson"));
 		pathElement = driver.findElement(By.className("pathJson"));
-		insertButton = driver.findElement(By.className("inputButton"));
+		insertButton = driver.findElement(By.className("insertButton"));
 	}
 
 	private void subscribeForJsonObject(String formicStringId) {

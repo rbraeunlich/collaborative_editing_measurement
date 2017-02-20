@@ -45,7 +45,7 @@ public class FormicJsonRemoteDummyWriter extends CollaborativeRemoteDummyWriter 
 		subscribeForJsonObject(formicStringId);
 		inputElement = remoteDriver.findElement(By.className("inputJson"));
 		pathElement = remoteDriver.findElement(By.className("pathJson"));
-		insertButton = remoteDriver.findElement(By.className("inputButton"));
+		insertButton = remoteDriver.findElement(By.className("insertButton"));
 	}
 	
 	private void subscribeForJsonObject(String formicStringId) {
